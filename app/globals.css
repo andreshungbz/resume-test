@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  @apply mx-auto max-w-3xl sm:pt-4
+}
+
+header {
+  @apply text-center p-8 border-green-400 border-b-4 bg-green-100
+}
+
+footer {
+  @apply border-green-400 border-t-4 bg-green-100 flex justify-center p-4 gap-4
+}
+
+h1 {
+  @apply text-4xl font-bold text-green-900
+}
+
+section {
+  @apply p-5
+}
+
+p {
+  @apply mb-3
+}
+
+li {
+  @apply list-disc list-inside
+}
+
+.link {
+  @apply text-green-800 hover:text-green-600
+}
